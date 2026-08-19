@@ -14,6 +14,15 @@ It includes:
 
 ## Dataset from Kaggle
 
+Prepares the data and creates provider-level features, including:
+
+- Number of claims
+- Number of patients
+- Total reimbursement
+- Average reimbursement
+- Diagnosis and procedure counts
+- Inpatient and outpatient activity
+
 ## Three models:
 
 - Logistic Regression
