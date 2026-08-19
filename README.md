@@ -28,6 +28,9 @@ It includes:
 | XGBoost | 0.751 | 0.960 |
 | Random Forest | 0.737 | 0.959 |
 
+- PR-AUC: How well the model finds fraud while avoiding too many false alarms.
+- ROC-AUC: How well the model separates fraud cases from normal cases overall.
+
 Logistic Regression performed best overall.
 
 ## Technologies
