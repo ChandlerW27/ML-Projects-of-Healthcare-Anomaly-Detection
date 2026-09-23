@@ -31,14 +31,18 @@ Prepares the data and creates provider-level features, including:
 
 ## Results
 
-| Model | PR-AUC | ROC-AUC |
-|---|---:|---:|
-| Logistic Regression | **0.759** | **0.961** |
-| XGBoost | 0.751 | 0.960 |
-| Random Forest | 0.737 | 0.959 |
+Best model: Logistic Regression
 
-- PR-AUC: How well the model finds fraud while avoiding too many false alarms.
-- ROC-AUC: How well the model separates fraud cases from normal cases overall.
+              precision    recall  f1-score   support
+
+   Non-Fraud     0.9849    0.9029    0.9421      1226
+       Fraud     0.4803    0.8661    0.6180       127
+
+    accuracy                         0.8995      1353
+   macro avg     0.7326    0.8845    0.7801      1353
+weighted avg     0.9375    0.8995    0.9117      1353
+
+
 
 Logistic Regression performed best overall.
 
