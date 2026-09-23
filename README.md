@@ -29,19 +29,18 @@ Prepares the data and creates provider-level features, including:
 - Random Forest
 - XGBoost
 
-## Results
+## Results （Model Performance)
 
-Best model: Logistic Regression
+**Best Model: Logistic Regression**
 
-              precision    recall  f1-score   support
+| Class | Precision | Recall | F1-Score | Support |
+|---|---:|---:|---:|---:|
+| Non-Fraud | 0.9849 | 0.9029 | 0.9421 | 1,226 |
+| Fraud | 0.4803 | 0.8661 | 0.6180 | 127 |
+| **Macro Avg** | 0.7326 | 0.8845 | 0.7801 | 1,353 |
+| **Weighted Avg** | 0.9375 | 0.8995 | 0.9117 | 1,353 |
 
-   Non-Fraud     0.9849    0.9029    0.9421      1226
-       Fraud     0.4803    0.8661    0.6180       127
-
-    accuracy                         0.8995      1353
-   macro avg     0.7326    0.8845    0.7801      1353
-weighted avg     0.9375    0.8995    0.9117      1353
-
+**Overall Accuracy: 89.95%**
 
 
 Logistic Regression performed best overall.
